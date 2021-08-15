@@ -63,7 +63,7 @@ class _UpdateAppState extends State<UpdateApp> with WidgetsBindingObserver {
                 label: "Update now",
                 onPressed: () {
                   Utility.launchURL(
-                      "https://play.google.com/store/apps/details?id=com.thealphamerc.flutter_twitter_clone");
+                      "https://play.google.com/store/apps/details?id=com.zaton.flutter_twitter_clone");
                 },
                 borderRadius: 30,
               ),

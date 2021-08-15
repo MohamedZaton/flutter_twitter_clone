@@ -78,11 +78,6 @@ class CustomLinkMediaInfo extends StatelessWidget {
     /// Other url preview is displayed on `LinkPreview` widget.
     /// `LinkPreview` uses [flutter_link_preview] package to fetch url metadata.
     /// It is seen that `flutter_link_preview` package is unable to fetch youtube metadata
-    if (!uri.contains("youtu")) {
-      return LinkPreview(
-        url: uri,
-      );
-    }
 
     /// Youtube thumbnail preview builder
     return FutureBuilder(

@@ -375,7 +375,6 @@ class AuthState extends AppState {
               if (_userModel.fcmToken == null) {
                 updateFCMToken();
               }
-
               getIt<SharedPreferenceHelper>().saveUserProfile(_userModel);
             }
 
